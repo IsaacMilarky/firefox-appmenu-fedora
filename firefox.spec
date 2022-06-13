@@ -1063,6 +1063,8 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 #---------------------------------------------------------------------
 
 %changelog
+* Mon Jun 13 2022 Isaac Milarsky <imilarsky@gmail.com> 101.0-1
+- Use Tito to package for Fedora copr
 * Mon Jul 13 2022 Isaac Milarsky <krabs@tilde.team>
 - Integrated appmenu support patches from archlinux AUR into build
 - Commented out pciutils-libs from spec file as it was throwing an error with rpmlint ( E: explicit-lib-dependency )
